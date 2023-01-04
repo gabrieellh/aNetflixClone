@@ -1,0 +1,537 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*Ubuntu Fonts Google*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+/* Open Sans Fonts Google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* root elements */
+
+:root {
+    --red-color: #e50914;
+}
+
+/* Reset CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* body style */
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem ;
+    list-style: none;
+}
+
+.logo-netflix {
+    height: 2rem; 
+    width: 6.75rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    height: 2rem;
+    padding-left: 1.5rem;
+    border-style: none;
+    background: var(--red-color);
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+/* Animation of the buttons */
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-sign-in {
+    width: 6rem;
+    height: 2rem;
+    border-style: none;
+    background: var(--red-color);
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.btn-sign-in {
+    cursor: pointer;
+}
+
+.btn-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #1212147a;
+    border: 1px solid gray;
+    padding: 0.3rem;
+}
+
+.btn-language:hover {
+    cursor: pointer;
+}
+
+
+.first-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.title-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+
+.second-title {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.first-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.email {
+    height: 44px;
+    width: 50%;
+    padding: 10px 11px;
+    font-size: 16px;
+}
+
+.btn-input {
+    display: flex;
+    align-items: center;
+    background: var(--red-color);
+    margin-top: 0.5rem;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.btn-input:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: 8px solid #222;
+}
+
+.ways-to-watch {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.watch-on-the-tv {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #222;
+
+}
+
+.title-tv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    font-size: 3rem;
+    margin-top: 20%;
+}
+.paragraph-tv {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 2%;   
+
+}
+
+.watch-anytime {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #222;
+}
+
+.title-watch-anytime {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: right;
+    font-size: 3rem;
+    margin-top: 20%;
+}
+
+.paragraph-watch-anytime {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: right;
+    font-size: 25px;
+    margin-top: 2%;   
+}
+
+.profile-for-kids {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #222;
+}
+
+.title-profile-for-kids {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    font-size: 3rem;
+    margin-top: 20%;
+}
+
+.paragraph-profile-for-kids {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: left;
+    font-size: 25px;
+    margin-top: 2%;   
+}
+
+
+.install-series {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #222;
+}
+
+.title-install-series {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: right;
+    font-size: 3rem;
+    margin-top: 20%;
+}
+
+.paragraph-install-series {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: right;
+    font-size: 25px;
+    margin-top: 2%;  
+}
+
+
+footer {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph-input2 {
+    font-size: 15px;
+    text-align: center; 
+}
+
+.input-2 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.email-input2 {
+    width: 30rem;
+    height: 44px;
+    padding: 10px 11px;
+}
+
+.btn-2 {
+    display: flex;
+    width: 100px;
+    height: 44px;
+    align-items: center;
+    background: var(--red-color);
+    margin-top: 0.5rem;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.faq {
+    width: 100%;
+
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.faq-list {
+    margin: 50px auto;
+    max-width: 815px;
+    font-size: 26px;
+}
+
+.faq-question,
+.faq-answer {
+    background: #303030;
+}
+
+.faq-question {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 1px;
+}
+
+.faq-question::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-add.svg") no-repeat center center;
+    transform: rotate(45deg);
+}
+
+.faq-answer > div {
+    padding: 30px;
+
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.faq-answer.active {
+    max-height: 120px;
+
+}
+
+.faq-question.active::after {
+    transform: rotate(0deg);
+}
+
+@media  (max-width: 990px) {
+    nav {
+        justify-content: space-around;
+
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        gap: 5px;
+        margin-left: 1.8rem;
+        
+    }
+
+    .first-content {
+       margin-top: 15%;
+       margin-bottom: 5%;
+    }
+
+    .title-content {
+        font-size: 35px;
+    }
+
+    .second-title {
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .first-paragraph {
+        font-size: 23px;
+        margin: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 50;
+    }
+
+    main {
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
+        align-items: center;
+        border: 0px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .watch-on-the-tv {
+        flex-direction: column;
+        border: 0px;
+    }
+
+    .title-tv {
+        text-align: center;
+        align-items: center;
+        font-size: 35px;
+    }
+
+    .paragraph-tv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .watch-anytime {
+        flex-direction: column;
+        border: 0px;
+        margin-top: 32px;
+    }
+
+    .title-watch-anytime {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .paragraph-watch-anytime {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .profile-for-kids {
+        flex-direction: column;
+        border: 0px;
+    }
+
+    .title-profile-for-kids {
+        text-align: center;
+        align-items: center;
+    }
+
+    .paragraph-profile-for-kids {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 32px;
+    } 
+
+    .install-series {
+        flex-direction: column;
+        border: 0px;
+    }
+
+    .title-install-series {
+        text-align: center;
+        align-items: center;
+    }
+
+    .paragraph-install-series {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .faq-list {
+        margin-top: 22px;
+        width: 75%;
+    }
+  
+    .faq-question,
+    .faq-answer {
+        font-size: 18px;
+    }
+
+    .faq-question {
+        padding: 16px 22px;
+    }
+
+    .faq-question.active::after {
+        background-size: 15px;
+    }
+
+    .faq-answer > div {
+        padding: 21px;
+    }
+
+  .faq > h1 {
+        font-size: 35px;
+    }
+
+    .email-input2 {
+        width: 15rem;
+    }
+}
+
+
