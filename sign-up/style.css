@@ -1,0 +1,89 @@
+/*Ubuntu Fonts Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/464f74e4-ad4d-4357-9c7e-96312b13196b/BR-pt-20230103-popsignuptwoweeks-perspective_alpha_website_medium.jpg") ;
+}
+
+.logo-netflix {
+  height: 2rem; 
+  width: 6.75rem;
+  margin: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content {
+   background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+    min-height: 515px;
+    padding: 20px 0 30px;
+    width: 100%;
+}
+
+.title-form {
+  padding: 1rem;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  width: 300px;
+  height: 2.5rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.password {
+  width: 300px;
+  height: 2.5rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 2.5rem;
+  background-color: #e50914;
+  border-style: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generic-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 5px;
+}
