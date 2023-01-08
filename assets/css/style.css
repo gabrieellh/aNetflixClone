@@ -38,13 +38,12 @@ ul {
     justify-content: center;
     gap: 2rem ;
     list-style: none;
-    padding: 2rem;
+    margin: 1rem;
 }
 
 .logo-netflix {
     height: 2rem; 
     width: 6.75rem;
-  
 }
 
 .btn {
@@ -386,12 +385,9 @@ footer {
 
     ul {
         gap: 5px;
-        padding: 2rem;
+        
         
     } 
-
-  .logo-netflix {
-    margin-left: 0.3rem;}
 
     .first-content {
        margin-top: 15%;
