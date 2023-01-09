@@ -31,12 +31,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 2.5rem;
 }
 
 ul {
     display: flex;
     justify-content: center;
-    gap: 2rem ;
+    gap: 0.5rem ;
     list-style: none;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
@@ -217,9 +218,9 @@ main {
     display: flex;
     flex-flow: row wrap;
     text-align: left;
-    align-items: right;
+    align-items: center;
     font-size: 25px;
-    margin-top: 2%;   
+    margin-top: 35px;  
 }
 
 .profile-for-kids {
@@ -308,15 +309,21 @@ footer {
     background: var(--red-color);
     margin-top: 0.5rem;
     justify-content: center;
-    text-align: center:
+    text-align: center;
     font-size: 14px;
 }
 
-.faq {
-    width: 100
-    margin-top: 2%;
-
+button {
+  border-style: none;
 }
+
+.faq {
+    width: 100;
+    margin-top: 2%;
+    
+}
+
+
 
 .faq h1 {
     text-align: center;
@@ -394,6 +401,7 @@ footer {
        margin-top: 15%;
        margin-bottom: 5%;
     }
+
 
     .title-content {
         font-size: 35px;
