@@ -386,7 +386,8 @@ footer {
 
     ul {
         gap: 5px;
-        
+        padding: 1rem; 
+        margin:c 32px;
         
     } 
 
