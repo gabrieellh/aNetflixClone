@@ -376,7 +376,8 @@ footer {
 @media  (max-width: 990px) {
     nav {
         justify-content: space-around;
-
+        padding: 1rem; 
+        margin: 32px;
     }
 
     header {
@@ -386,8 +387,6 @@ footer {
 
     ul {
         gap: 5px;
-        padding: 1rem; 
-        margin:c 32px;
         
     } 
 
